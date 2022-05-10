@@ -12,15 +12,17 @@ import Footer from './components/Footer/Footer'
 function App() {
   return (
     <div className="App">
-        <h1>TEST</h1>
-        <img src={logo} className="App-logo" alt="logo" />
+      <header className="App-header">
         <Header />
-        <About />
-        <Projects />
-        <Skills />
-        <Contact />
-        <ScrollToTop />
-        <Footer />
+      </header>
+      <main>
+        {/* <About /> */}
+        {/* <Projects /> */}
+        {/* <Skills /> */}
+        {/* <Contact /> */}
+      </main>
+        {/* <ScrollToTop />
+        <Footer /> */}
     </div>
   );
 }
