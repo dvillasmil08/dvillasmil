@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Navbar/Header/Header';
+import Header from './components/Header/Header';
+import Skills from './components/Skills/Skills'
+
+
 
 function App() {
   return (
@@ -19,7 +22,11 @@ function App() {
         >
           Learn React
         </a>
+        <Skills />
       </header>
+      <main>
+
+      </main>
     </div>
   );
 }

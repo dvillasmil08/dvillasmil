@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../Navbar";
-import {header} from '../../../portfolio'
+import Navbar from "../Navbar/Navbar";
+import {header} from '../../portfolio'
 
 const Header = () => {
     const {homepage, title} = header
