@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { projects, skills } from "../../portfolio";
+import './Navbar.css'
+
 
 const Navbar = () => {
     const [showNavlist, setShowNavList] = useState(false)
@@ -34,7 +36,7 @@ const Navbar = () => {
                     </li>
                 ):null}
 
-                
+
                 <li>
                     <a>
                         Contact

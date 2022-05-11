@@ -1,5 +1,6 @@
 import React from "react";
 import { skills } from "../../portfolio";
+import './Skills.css'
 
 const Skills = () => {
     return (
