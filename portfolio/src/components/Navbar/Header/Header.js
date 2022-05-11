@@ -1,14 +1,20 @@
 import React from "react";
 import Navbar from "../Navbar";
+import {header} from '../../../portfolio'
 
 const Header = () => {
+    const {homepage, title} = header
 
     return (
         <header className='header center'>
             <h3>
-                <a>
-
+                {homepage ? (
+                <a href={homepage} className='link'>
+                    {title}
                 </a>
+                ) : (
+                  title
+                )}
             </h3>
             <Navbar />
         </header>
