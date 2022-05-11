@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
+import Header from './components/Navbar/Header/Header';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar />
+        <Header />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
