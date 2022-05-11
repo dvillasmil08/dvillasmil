@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { projects } from "../../portfolio";
+import { projects, skills } from "../../portfolio";
 
 const Navbar = () => {
     const [showNavlist, setShowNavList] = useState(false)
@@ -20,13 +20,21 @@ const Navbar = () => {
                             Projects
                         </a>
                     </li>
-
                 ): null}
-                <li>
-                    <a>
-                        Skills
-                    </a>
-                </li>
+
+                {skills.length ? (
+                    <li className='nav__list-item'>
+                        <a
+                        href='#skills'
+                        onClick={toggleNavList}
+                        className='link link--nav'
+                        >
+                            Skills
+                        </a>
+                    </li>
+                ):null}
+
+                
                 <li>
                     <a>
                         Contact
