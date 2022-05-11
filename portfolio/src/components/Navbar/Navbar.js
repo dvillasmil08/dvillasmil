@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { projects, skills } from "../../portfolio";
+import { contact, projects, skills } from "../../portfolio";
 import './Navbar.css'
 
 
@@ -22,7 +22,7 @@ const Navbar = () => {
                             Projects
                         </a>
                     </li>
-                ): null}
+                ) : null}
 
                 {skills.length ? (
                     <li className='nav__list-item'>
@@ -34,14 +34,20 @@ const Navbar = () => {
                             Skills
                         </a>
                     </li>
-                ):null}
+                ) : null}
 
-
-                <li>
-                    <a>
+                {contact.email ? (
+                <li className='nav__list-item'>
+                    <a
+                    href='#contact'
+                    onClick={toggleNavList}
+                    className='link link--nav'
+                    >
                         Contact
                     </a>
                 </li>
+                ) : null} 
+
             </ul>
         </nav>
     )
