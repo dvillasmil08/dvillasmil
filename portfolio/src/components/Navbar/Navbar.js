@@ -47,8 +47,20 @@ const Navbar = () => {
                     </a>
                 </li>
                 ) : null} 
-
             </ul>
+
+            <button
+                type='button'
+                onClick={toggleTheme}
+                className='btn btn--icon nav__theme'
+                aria-label='toggle theme'
+            >
+                {themeName === 'dark'}
+
+            </button>
+
+
+
         </nav>
     )
 }
