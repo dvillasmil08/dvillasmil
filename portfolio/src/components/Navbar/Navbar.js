@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+import { ThemeContext } from "../../context/theme";
 import { contact, projects, skills } from "../../portfolio";
 import './Navbar.css'
 
 
 const Navbar = () => {
+    const [{ themeName, toggleTheme }] = useContext(ThemeContext)
     const [showNavlist, setShowNavList] = useState(false)
     const toggleNavList = () => setShowNavList(!showNavlist)
 
