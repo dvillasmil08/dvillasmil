@@ -1,11 +1,11 @@
 import React, { useContext, useState } from "react";
-import { ThemeContext } from "../../context/theme";
+// import { ThemeContext } from "../../context/Theme";
 import { contact, projects, skills } from "../../portfolio";
 import './Navbar.css'
 
 
 const Navbar = () => {
-    const [{ themeName, toggleTheme }] = useContext(ThemeContext)
+    // const [{ themeName, toggleTheme }] = useContext(ThemeContext)
     const [showNavlist, setShowNavList] = useState(false)
     const toggleNavList = () => setShowNavList(!showNavlist)
 
@@ -50,7 +50,7 @@ const Navbar = () => {
                 </li>
                 ) : null} 
             </ul>
-
+{/* 
             <button
                 type='button'
                 onClick={toggleTheme}
@@ -59,7 +59,7 @@ const Navbar = () => {
             >
                 {themeName === 'dark'}
 
-            </button>
+            </button> */}
 
 
 
