@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import Contact from "../Contact/Contact";
 
 const Navbar = () => {
   return (
@@ -21,9 +22,7 @@ const Navbar = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a href="#contact" className="nav-link">
-            Contact
-          </a>
+          <Contact />
         </li>
       </ul>
     </nav>

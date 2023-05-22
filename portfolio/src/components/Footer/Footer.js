@@ -1,6 +1,8 @@
+import React from "react";
 import Skills from "../Skills/Skills";
+import "./Footer.css";
 
-const footer = () => {
+const Footer = () => {
   return (
     <div className="footer">
       <Skills />
@@ -8,4 +10,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

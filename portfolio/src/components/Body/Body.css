@@ -1,23 +1,16 @@
 .card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-color: #fff;
   padding: 20px;
   border-radius: 4px;
-  transition: box-shadow 0.4s ease;
-}
-
-.card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .card-image {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 20px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
 
 .card-title {
@@ -26,9 +19,7 @@
 }
 
 .card-text {
-  margin-bottom: 20px;
-  justify-content: right;
-  align-items: right;
+  margin-bottom: 10px;
 }
 
 .card-social {
@@ -37,21 +28,22 @@
 }
 
 .card-link {
+  color: #007bff;
+  text-decoration: none;
   margin-bottom: 5px;
 }
-@media screen and (max-width: 480px) {
-  .site-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: lightgray;
+
+/* Adjust styles for mobile devices */
+@media (max-width: 767px) {
+  .card {
+    padding: 10px;
   }
-  .right {
-    display: flex;
-    align-items: center;
+
+  .card-image {
+    max-width: 150px;
   }
-  .right img {
-    margin-left: 10px;
+
+  .card-title {
+    font-size: 20px;
   }
-  
 }

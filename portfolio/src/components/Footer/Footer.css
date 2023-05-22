@@ -1,22 +1,24 @@
 .footer {
-    padding: 20px;
-    text-align: center;
-    font-size: 14px;
-    margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
 }
-@media screen and (max-width: 480px)
- {
-    .site-info {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        background: lightgray;
-    }
-    .right {
-        display: flex;
-        align-items: center;
-    }
-    .right img {
-        margin-left: 10px;
-    }
+
+@media screen and (max-width: 480px) {
+  .footer .site-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: lightgray;
+  }
+
+  .footer .right {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer .right img {
+    margin-left: 10px;
+  }
 }
