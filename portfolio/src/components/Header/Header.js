@@ -4,8 +4,8 @@ import {header} from '../../portfolio'
 import './Header.css'
 
 const Header = () => {
-    const {homepage, title} = header
-
+    
+const {homepage, title} = header
     return (
         <header className='header center'>
             <h3>
@@ -14,7 +14,7 @@ const Header = () => {
                     {title}
                 </a>
                 ) : (
-                  title
+                    title
                 )}
             </h3>
             <Navbar />

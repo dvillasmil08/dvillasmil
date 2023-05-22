@@ -3,19 +3,16 @@ import { skills } from "../../portfolio";
 import './Skills.css'
 
 const Skills = () => {
+    
     return (
-        <section>
-            <h2>
-            Skills
-            </h2>
-            <ul>
-                {skills.map((skill) => (
-                <li className='skills__list-item btn btn--plain'>
-                    {skill}
-                </li>
-                ))}
-            </ul>
-        </section>
-    )
+        <div className='skills'>
+            <h3 className='skill-title'>Tech Stack</h3>
+             {skills.map((skills) => (
+            <div className='skill-body'>
+                <p className='skill-text'>{skills}</p>
+            </div>
+        ))}
+    </div>
+        )
 }
 export default Skills

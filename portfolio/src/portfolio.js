@@ -1,6 +1,6 @@
 const header = {
     homepage: 'https://dvillasmil08.github.io/',
-    title: 'JS.',
+    title: 'Daniel Villasmil',
 }
 
 const about = {
@@ -15,9 +15,10 @@ const about = {
     }
 }
 
-const projects = [
+const project = [
     {
         name: 'Project 1',
+        id: 1,
         description:
             'Here is project description',
         stack: ['here is tech stack'],
@@ -27,6 +28,7 @@ const projects = [
 },
 {
     name: 'Project 2',
+    id: 2,
     description:
         'Here is project description',
     stack: ['here is tech stack'],
@@ -36,6 +38,7 @@ const projects = [
 },
 {
     name: 'Project 3',
+    id: 3,
     description:
         'Here is project description',
     stack: ['here is tech stack'],
@@ -45,6 +48,7 @@ const projects = [
 },
 {
     name: 'Project 4',
+    id: 4,
     description:
         'Here is project description',
     stack: ['here is tech stack'],
@@ -55,19 +59,19 @@ const projects = [
 ]
 
 const skills = [
-    'HTML',
-    'CSS',
-    'JavaScript',
+    'HTML/CSS',
     'React',
     'Git',
     'CI/CD',
     'Java',
-    'Docker',
-    'Kubernetes',
+    'Spring Boot',
+    'SQL',
+    'Change Management',
+    'Erwin Data Model',
 ]
 
 const contact = {
     email: 'dvillasmil08@gmail.com'
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, project, skills, contact }
