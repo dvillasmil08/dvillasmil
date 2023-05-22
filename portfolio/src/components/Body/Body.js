@@ -10,8 +10,9 @@ const Body = () => {
             <h3 className='card-title'>Hi there my name is {name}</h3>
             <p className='card-text'>{description}</p>
             <div className='card-social'>
-                    <a href={linkedin} className='card-link'>{linkedin}</a>
-                    <a href={github} className='card-link'>{github}</a>
+                    <a href={linkedin} target="_blank" className='card-link'>{linkedin}</a>
+                    <br></br>
+                    <a href={github} target="_blank" className='card-link'>{github}</a>
             </div>
         </div>
     )
