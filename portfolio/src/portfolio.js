@@ -9,10 +9,9 @@ const about = {
     description:
         'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
     resume: 'placeholder.com',
-    social: {
-        linkedin: 'https://www.linkedin.com/danielvillasmil/',
-        github: 'https://github.com/dvillasmil08/'
-    }
+    linkedin: 'https://www.linkedin.com/danielvillasmil/',
+    github: 'https://github.com/dvillasmil08/'
+        
 }
 
 const project = [
