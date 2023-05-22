@@ -1,11 +1,11 @@
-import Skills from "../Skills/Skills"
+import Skills from "../Skills/Skills";
 
 const footer = () => {
-    return (
-        <div className="footer">
-            <Skills /> 
-        </div>
-    )
-}
+  return (
+    <div className="footer">
+      <Skills />
+    </div>
+  );
+};
 
-export default footer
+export default footer;
