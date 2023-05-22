@@ -65,6 +65,8 @@ const skills = [
 
 const contact = {
   email: "dvillasmil08@gmail.com",
+  linkedin: "https://www.linkedin.com/in/danielvillasmil/",
+  github: "https://github.com/dvillasmil08/",
 };
 
 export { header, about, project, skills, contact };

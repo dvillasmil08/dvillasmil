@@ -1,6 +1,6 @@
 import React from "react";
 import { project } from "../../portfolio";
-import "./Body.css";
+import "./Projects.css";
 
 const projects = () => {
   const placeholderImage = "https://via.placeholder.com/200"; // Placeholder image URL
