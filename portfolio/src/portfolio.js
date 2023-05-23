@@ -21,7 +21,6 @@ const projects = [
     description: "Here is project description",
     stack: ["Java, Spring Boot, JavaScript, HTML, CSS"],
     sourceCode: "https://github.com/WCCI-one-day-at-a-time/OneDayAtATime",
-    livePreview: "github code link",
   },
   {
     name: "Clicking Calamity",
@@ -29,7 +28,6 @@ const projects = [
     description: "Here is project description",
     stack: ["JavaScript, HTML, CSS"],
     sourceCode: "https://github.com/2020-Spring-Cohort/clicking-calamity-DanielVillasmil",
-    livePreview: "github code link",
   },
   {
     name: "Top Down Shooter",
@@ -53,7 +51,7 @@ const projects = [
     description: "Here is project description",
     stack: ["Lua, Love2D"],
     sourceCode: "https://github.com/dvillasmil08/Platformer",
-    livePreview: "github code link",
+    
   },
 ];
 const hobbies = [
