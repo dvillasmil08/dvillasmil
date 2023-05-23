@@ -15,6 +15,6 @@
   .footer .right {
     display: flex;
     align-items: center;
-    margin-left: 10px; /* Replace margin on img with margin on .right */
+    margin-left: 10px; 
   }
 }

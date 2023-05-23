@@ -1,12 +1,13 @@
 .projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  
+  justify-items: center;
+  align-content: flex-start; /* Align content to the top */
 }
 
 .projects-title {
+  grid-column: 1 / -1;
   text-align: center;
 }
 
@@ -17,13 +18,12 @@
   flex-direction: column;
   align-items: center;
   border-radius: 5%;
-
 }
 
 .project-image {
   height: auto;
   max-width: 100%;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .project-name {
@@ -32,13 +32,13 @@
   text-align: center;
 }
 
-.project-text{
+.project-text {
   font-size: 14px;
   margin-top: 10px;
   text-align: center;
 }
 
-.project-link{
+.project-link {
   display: block;
   color: #007bff;
   text-decoration: none;
@@ -48,12 +48,22 @@
 .project-link:hover {
   text-decoration: underline;
 }
+.project-stack {
+  background-color: #98ddca; /* Pastel green background color */
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  list-style-type: none; /* Remove bullet points */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
 
 /* Mobile compatibility */
 @media screen and (max-width: 767px) {
   .projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: 1fr;
   }
 }
