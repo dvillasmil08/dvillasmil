@@ -71,26 +71,59 @@ const hobbies = [
   {
     id: 2,
     name: "Counter Strike: Global Offensive",
-    description: "Video Games",
-    image: "https://via.placeholder.com/200",
+    description: (
+      <div>
+        I've been grinding CSGO for over a decade now, honing my skills on the
+        virtual battlefield. As a player and coach, I had the awesome
+        opportunity to be part of the US Army CSGO team's outreach program. We
+        went on an epic journey, climbing three divisions and leaving our mark
+        in the gaming world!
+      </div>
+    ),
+    image: require("./Images/esports.JPG"),
   },
   {
     id: 3,
     name: "USArmy",
-    description: "USArmy",
-    image: "https://via.placeholder.com/200",
+    description: (
+      <div>
+        During my incredible 10-year military journey, I ventured through
+        unexpected places. From California's scorching desert to Georgia's
+        challenging landscapes, each location presented unique adventures. New
+        York brought brutal winters upstate and memorable trips to Canada. And
+        in El Paso, I discovered a vibrant atmosphere that made it all
+        worthwhile. From deserts to frozen tundras, each place left an indelible
+        mark on my journey.
+      </div>
+    ),
+    image: require("./Images/armyHead.jpg"),
   },
   {
     id: 4,
     name: "Soccer",
-    description: "Soccer",
-    image: "https://via.placeholder.com/200",
+    description: (
+      <div>
+        Soccer is my lifeblood. From World Cups to local matches, I live and
+        breathe the game. Whether it's following international tournaments or
+        supporting my beloved Columbus Crew with a season ticket, soccer is more
+        than a hobby—it's a lifelong passion that keeps me connected to the
+        beautiful game.
+      </div>
+    ),
+    image: require("./Images/columbus-stadium.JPG"),
   },
   {
     id: 5,
     name: "Rugby",
-    description: "Rugby",
-    image: "https://via.placeholder.com/200",
+    description: (
+      <div>
+        Rugby has shaped me. I played for Venezuela's U-18 team, training with
+        the seniors. We took the lead, forming our own team and winning the
+        Venezuelan 7-a-side championship. Rugby is ingrained in me, symbolizing
+        camaraderie and resilience.
+      </div>
+    ),
+    image: require("./Images/rugby.JPG"),
   },
 ];
 

@@ -1,9 +1,9 @@
 import React from "react";
 import { projects } from "../../portfolio";
 import "./Project.css";
+import logo from "../../Images/logo192.png"
 
 const Projects = () => {
-  const placeholderImage = "https://via.placeholder.com/200"; // Placeholder image URL
 
   return (
     <div className="projects">
@@ -13,11 +13,11 @@ const Projects = () => {
         
         return (
           <div className="project-id" key={id}>
-            <img src={placeholderImage} alt="profile" className="project-image" />
+            {/* <img src={logo} alt="profile" className="project-image" /> */}
             <h3 className="project-title">{name}</h3>
             <p className="project-text">{description}</p>
             <a href={sourceCode} className="project-repo">
-              Link to repository.
+              Repository.
             </a>
             {livePreview && ( // Check if livePreview prop exists
               <a target="_blank" href={livePreview} className="project-demo">

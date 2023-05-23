@@ -1,16 +1,16 @@
 import React from "react";
 import { about } from "../../portfolio";
 import "../Body/Body.css";
+import headshot from "../../Images/profile.jpeg";
 
 const Body = () => {
   const { name, description, image, linkedin, github } = about;
-  const placeholderImage = 'https://via.placeholder.com/200'; // Placeholder image URL
 
   return (
     <div className="body">
-      <img src={placeholderImage} alt="profile" className="body-image" />
+      <img src={headshot} alt="profile" className="body-image" />
       <h3 className="body-title">Hi there!</h3>
-      <p className="body-text">{description}</p>
+      <div className="body-text">{description}</div>
     </div>
   );
 };
