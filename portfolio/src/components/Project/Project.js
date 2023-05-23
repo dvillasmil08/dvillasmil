@@ -10,7 +10,7 @@ const Projects = () => {
       <h2 className="projects-title">Projects</h2> {/* Add the title */}
       {projects.map((project) => {
         const { livePreview, sourceCode, id, name, description, stack } = project;
-
+        
         return (
           <div className="project-id" key={id}>
             <img src={placeholderImage} alt="profile" className="project-image" />
@@ -19,11 +19,11 @@ const Projects = () => {
             <a href={sourceCode} className="project-repo">
               Link to repository.
             </a>
-            {livePreview ? ( // Check if livePreview prop is not empty or falsy
+            {livePreview && ( // Check if livePreview prop exists
               <a target="_blank" href={livePreview} className="project-demo">
                 Demo.
               </a>
-            ) : null}
+            )}
             <p className="project-stack">{stack}</p>
           </div>
         );
