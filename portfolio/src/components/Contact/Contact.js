@@ -9,8 +9,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  Modal.setAppElement("#root");
-
+  
 
   return (
     <div>

@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div className="card">
       {projects.map((project) => (
-        <div className="card-project">
+        <div className="card-project" key={project.id}>
           <img src={placeholderImage} alt="profile" className="card-image" />
           <h3 className="card-title">{project.name}</h3>
           <p className="card-text">{project.description}</p>
@@ -25,3 +25,4 @@ const Projects = () => {
 };
 
 export default Projects;
+

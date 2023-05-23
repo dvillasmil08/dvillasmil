@@ -51,11 +51,8 @@ const projects = [
 ];
 const hobbies = [
   {
-    title: "Hobbies & Involvement",
-  },
-  {
     id: 2,
-    name: "Counter Strike: Global Office",
+    name: "Counter Strike: Global Offensive",
     description: "Video Games",
     image: "https://via.placeholder.com/200",
   },

@@ -5,7 +5,6 @@ import "./Hobby.css";
 const Hobbies = () => {
   const placeholderImage = 'https://via.placeholder.com/200'; // Placeholder image URL
 
-  
   return (
     <div className="card">
       {hobbies.map((hobby) => (
@@ -19,5 +18,4 @@ const Hobbies = () => {
   );
 };
 
-  
-  export default Hobbies;
+export default Hobbies;
