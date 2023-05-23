@@ -18,6 +18,8 @@ const Projects = () => {
           <a href={project.repository} className="card-link">
             Link to repository
           </a>
+          <p className="card-stack">{project.stack}</p>
+          
         </div>
       ))}
     </div>

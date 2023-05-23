@@ -3,15 +3,16 @@ import { hobbies } from "../../portfolio";
 import "./Hobby.css";
 
 const Hobbies = () => {
-  const placeholderImage = 'https://via.placeholder.com/200'; // Placeholder image URL
+  const placeholderImage = "https://via.placeholder.com/200"; // Placeholder image URL
 
   return (
-    <div className="card">
+    <div className="hobbies">
+      <h2 className="hobbies-title">Hobbies and involvements</h2>
       {hobbies.map((hobby) => (
-        <div className="card-project" key={hobby.id}>
-          <img src={placeholderImage} alt="Hobby" className="card-image" />
-          <h3 className="card-title">{hobby.name}</h3>
-          <p className="card-text">{hobby.description}</p>
+        <div className="hobby-id" key={hobby.id}>
+          <img src={placeholderImage} alt="Hobby" className="hobby-image" />
+          <h3 className="hobby-name">{hobby.name}</h3>
+          <p className="hobby-text">{hobby.description}</p>
         </div>
       ))}
     </div>
@@ -19,3 +20,4 @@ const Hobbies = () => {
 };
 
 export default Hobbies;
+
