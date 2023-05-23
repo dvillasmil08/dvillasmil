@@ -1,72 +1,74 @@
-.profile {
-  max-width: 700px; /* Adjust the value as desired */
-  margin: 0 auto; /* Center the card horizontally */
+.body {
+  max-width: 700px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center; /* Center the content vertically and horizontally */
+  text-align: center; /* Center the text */
   background-color: #f1f1f1;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.profile-image {
+.body-image {
   width: 200px;
   height: auto;
   border-radius: 50%;
   margin-bottom: 10px;
 }
 
-.profile-content {
+.body-content {
   text-align: center;
 }
 
-.profile-title {
+.body-title {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-.profile-text {
+.body-text {
   font-size: 16px;
   margin-bottom: 20px;
 }
 
-.profile-social {
+.body-social {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.profile-link {
+.body-link {
   font-size: 14px;
   margin-bottom: 5px;
   color: #333;
   text-decoration: none;
 }
 
-.profile-link:hover {
+.body-link:hover {
   text-decoration: underline;
 }
 
 /* Mobile-friendly styles */
 @media only screen and (max-width: 600px) {
-  .profile {
+  .body {
     padding: 10px;
   }
 
-  .profile-image {
+  .body-image {
     width: 150px;
   }
 
-  .profile-title {
+  .body-title {
     font-size: 20px;
   }
 
-  .profile-text {
+  .body-text {
     font-size: 14px;
   }
 
-  .profile-link {
+  .body-link {
     font-size: 12px;
   }
 }

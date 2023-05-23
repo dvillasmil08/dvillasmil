@@ -2,33 +2,39 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  align-items: center; 
-  /* justify-items: center;  */
+  align-items: center;
+  justify-items: center;
 }
 
 .hobbies-title {
   grid-column: 1 / -1;
-  text-align: center; 
+  text-align: center;
 }
 
 .hobby-id {
   background-color: #f0f0f0;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hobby-image {
-  /* width: 100%; */
   height: auto;
+  max-width: 100%;
+  border-radius: 50%;
 }
 
 .hobby-name {
   font-size: 18px;
   margin-top: 0;
+  text-align: center;
 }
 
 .hobby-text {
   font-size: 14px;
   margin-top: 10px;
+  text-align: center;
 }
 
 .hobby-link {
@@ -46,9 +52,5 @@
 @media screen and (max-width: 767px) {
   .hobbies {
     grid-template-columns: 1fr;
-  }
-
-  .hobby-id {
-    max-width: 100%;
   }
 }

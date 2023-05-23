@@ -6,8 +6,21 @@ const header = {
 const about = {
   name: "Daniel Villasmil",
   role: "Software Developer",
-  description:
-    "I was born in Columbus, OH, and moved to Venezuela at two years old. While living in Venezuela, I had the opportunity to experience the culture and grow up in a different environment. While studying Civil Engineering there, I had a C++ class that made me realize I enjoyed programming and that software development is my calling. After moving back to Columbus, I joined the US Army and served for seven years on active duty. In 2020, I transitioned from active duty and currently serve in the Reserves while also taking on roles in coaching and leadership. I enjoy playing video games, watching movies, and traveling.  ",
+  description: (
+    <div>
+      I was born in Columbus, OH, and moved to Venezuela at two years old. While
+      living in Venezuela, I had the opportunity to experience the culture and
+      grow up in a different environment. While studying Civil Engineering
+      there, I had a C++ class that made me realize I enjoyed programming and
+      that software development is my calling.
+      <br />
+      <br />
+      After moving back to Columbus, I joined the US Army and served for seven
+      years on active duty. In 2020, I transitioned from active duty and
+      currently serve in the Reserves while also taking on roles in coaching and
+      leadership. I enjoy playing video games, watching movies, and traveling.
+    </div>
+  ),
   resume: "placeholder.com",
   linkedin: "https://www.linkedin.com/in/danielvillasmil/",
   github: "https://github.com/dvillasmil08/",
@@ -27,7 +40,8 @@ const projects = [
     id: 2,
     description: "Here is project description",
     stack: ["JavaScript, HTML, CSS"],
-    sourceCode: "https://github.com/2020-Spring-Cohort/clicking-calamity-DanielVillasmil",
+    sourceCode:
+      "https://github.com/2020-Spring-Cohort/clicking-calamity-DanielVillasmil",
   },
   {
     name: "Top Down Shooter",
@@ -51,7 +65,6 @@ const projects = [
     description: "Here is project description",
     stack: ["Lua, Love2D"],
     sourceCode: "https://github.com/dvillasmil08/Platformer",
-    
   },
 ];
 const hobbies = [

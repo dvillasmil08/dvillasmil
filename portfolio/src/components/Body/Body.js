@@ -7,10 +7,10 @@ const Body = () => {
   const placeholderImage = 'https://via.placeholder.com/200'; // Placeholder image URL
 
   return (
-    <div className="profile">
-      <img src={placeholderImage} alt="profile" className="profile-image" />
-      <h3 className="profile-title">Hi there!</h3>
-      <p className="profile-text">{description}</p>
+    <div className="body">
+      <img src={placeholderImage} alt="profile" className="body-image" />
+      <h3 className="body-title">Hi there!</h3>
+      <p className="body-text">{description}</p>
     </div>
   );
 };

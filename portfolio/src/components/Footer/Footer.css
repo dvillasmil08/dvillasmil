@@ -8,7 +8,6 @@
 @media screen and (max-width: 480px) {
   .footer .site-info {
     display: flex;
-    flex-direction: row;
     align-items: center;
     background: lightgray;
   }
@@ -16,9 +15,6 @@
   .footer .right {
     display: flex;
     align-items: center;
-  }
-
-  .footer .right img {
-    margin-left: 10px;
+    margin-left: 10px; /* Replace margin on img with margin on .right */
   }
 }
