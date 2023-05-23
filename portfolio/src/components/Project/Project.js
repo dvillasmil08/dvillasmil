@@ -6,20 +6,20 @@ const Projects = () => {
   const placeholderImage = "https://via.placeholder.com/200"; // Placeholder image URL
 
   return (
-    <div className="card">
+    <div className="projects">
+      <h2 className="projects-title">Projects</h2> {/* Add the title */}
       {projects.map((project) => (
-        <div className="card-project" key={project.id}>
-          <img src={placeholderImage} alt="profile" className="card-image" />
-          <h3 className="card-title">{project.name}</h3>
-          <p className="card-text">{project.description}</p>
-          <a href={project.homepage} className="card-link">
-            Link to project
+        <div className="project-id" key={project.id}>
+          <img src={placeholderImage} alt="profile" className="project-image" />
+          <h3 className="project-title">{project.name}</h3>
+          <p className="project-text">{project.description}</p>
+          <a href={project.sourceCode} className="project-repo">
+            Link to repository.
           </a>
-          <a href={project.repository} className="card-link">
-            Link to repository
+          <a href={project.livePreview} className="project-demo">
+            Link to demo.
           </a>
-          <p className="card-stack">{project.stack}</p>
-          
+          <p className="project-stack">{project.stack}</p>
         </div>
       ))}
     </div>
@@ -27,4 +27,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
