@@ -1,49 +1,72 @@
-.card {
-  background-color: #fff;
+.profile {
+  max-width: 700px; /* Adjust the value as desired */
+  margin: 0 auto; /* Center the card horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1;
   padding: 20px;
-  border-radius: 4px;
+  border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.card-image {
-  width: 100%;
-  max-width: 200px;
+.profile-image {
+  width: 200px;
   height: auto;
-  border-radius: 4px;
+  border-radius: 50%;
   margin-bottom: 10px;
 }
 
-.card-title {
+.profile-content {
+  text-align: center;
+}
+
+.profile-title {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-.card-text {
-  margin-bottom: 10px;
+.profile-text {
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
-.card-social {
+.profile-social {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-.card-link {
-  color: #007bff;
-  text-decoration: none;
+.profile-link {
+  font-size: 14px;
   margin-bottom: 5px;
+  color: #333;
+  text-decoration: none;
 }
 
-/* Adjust styles for mobile devices */
-@media (max-width: 767px) {
-  .card {
+.profile-link:hover {
+  text-decoration: underline;
+}
+
+/* Mobile-friendly styles */
+@media only screen and (max-width: 600px) {
+  .profile {
     padding: 10px;
   }
 
-  .card-image {
-    max-width: 150px;
+  .profile-image {
+    width: 150px;
   }
 
-  .card-title {
+  .profile-title {
     font-size: 20px;
+  }
+
+  .profile-text {
+    font-size: 14px;
+  }
+
+  .profile-link {
+    font-size: 12px;
   }
 }

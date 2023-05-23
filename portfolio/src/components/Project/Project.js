@@ -1,13 +1,13 @@
 import React from "react";
-import { project } from "../../portfolio";
-import "./Projects.css";
+import { projects } from "../../portfolio";
+import "./Project.css";
 
-const projects = () => {
+const Projects = () => {
   const placeholderImage = "https://via.placeholder.com/200"; // Placeholder image URL
 
   return (
     <div className="card">
-      {project.map((project) => (
+      {projects.map((project) => (
         <div className="card-project">
           <img src={placeholderImage} alt="profile" className="card-image" />
           <h3 className="card-title">{project.name}</h3>
@@ -24,4 +24,4 @@ const projects = () => {
   );
 };
 
-export default projects;
+export default Projects;

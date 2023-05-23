@@ -11,9 +11,11 @@ const about = {
   resume: "placeholder.com",
   linkedin: "https://www.linkedin.com/in/danielvillasmil/",
   github: "https://github.com/dvillasmil08/",
+  image: "https://via.placeholder.com/200",
+
 };
 
-const project = [
+const projects = [
   {
     name: "Project 1",
     id: 1,
@@ -47,6 +49,35 @@ const project = [
     livePreview: "github code link",
   },
 ];
+const hobbies = [
+  {
+    title: "Hobbies & Involvement",
+  },
+  {
+    id: 2,
+    name: "Counter Strike: Global Office",
+    description: "Video Games",
+    image: "https://via.placeholder.com/200",
+  },
+  {
+    id: 3,
+    name: "USArmy",
+    description: "USArmy",
+    image: "https://via.placeholder.com/200",
+  },
+  {
+    id: 4,
+    name: "Soccer",
+    description: "Soccer",
+    image: "https://via.placeholder.com/200",
+  },
+  {
+    id: 5,
+    name: "Rugby",
+    description: "Rugby",
+    image: "https://via.placeholder.com/200",
+  },
+];
 
 const skills = [
   "HTML/CSS",
@@ -69,4 +100,4 @@ const contact = {
   github: "https://github.com/dvillasmil08/",
 };
 
-export { header, about, project, skills, contact };
+export { header, about, projects, skills, contact, hobbies };

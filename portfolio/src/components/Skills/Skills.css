@@ -9,3 +9,9 @@
 .skill-body {
   display: inline-flex;
 }
+
+@media screen and (max-width: 480px) {
+  .skills {
+    font-size: 12px;
+  }
+}
