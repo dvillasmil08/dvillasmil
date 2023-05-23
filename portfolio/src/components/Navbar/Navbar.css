@@ -20,10 +20,6 @@
   text-decoration: none;
 }
 
-.nav-link:hover {
-  text-decoration: underline;
-}
-
 /* Mobile compatibility */
 @media screen and (max-width: 767px) {
   .navbar {
