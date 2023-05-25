@@ -7,8 +7,10 @@ import logo from "../../Images/logo192.png"
 const Hobbies = () => {
 
   return (
-    <div className="hobbies">
+    <div>
+
       <h2 className="hobbies-title">Hobbies and involvements</h2>
+    <div className="hobbies">
       {hobbies.map((hobby) => (
         <div className="hobby-id" key={hobby.id}>
           <h3 className="hobby-name">{hobby.name}</h3>
@@ -17,6 +19,7 @@ const Hobbies = () => {
         </div>
       ))}
     </div>
+      </div>
   );
 };
 
