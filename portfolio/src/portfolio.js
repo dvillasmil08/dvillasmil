@@ -8,17 +8,19 @@ const about = {
   role: "Software Developer",
   description: (
     <div>
-      I was born in Columbus, OH, and moved to Venezuela at two years old. While
-      living in Venezuela, I had the opportunity to experience the culture and
-      grow up in a different environment. While studying Civil Engineering
-      there, I had a C++ class that made me realize I enjoyed programming and
-      that software development is my calling.
+      Ohio-born, Venezuela raised where I studied Civil Engineering, I
+      discovered my passion for programming through a C++ class, realizing that
+      software development is my true calling. Once returning to the US, I
+      joined the US Army and served for seven years on active duty. In 2020, I
+      transitioned to the Reserves. Being a father is essential to my life, and
+      I cherish the time I spend with my family. 
       <br />
       <br />
-      After moving back to Columbus, I joined the US Army and served for seven
-      years on active duty. In 2020, I transitioned from active duty and
-      currently serve in the Reserves while also taking on roles in coaching and
-      leadership. I enjoy playing video games, watching movies, and traveling.
+      I enjoy playing video games,
+      watching movies, and traveling in my free time. This brief overview
+      highlights my multicultural background, academic journey, military
+      service, and the joy of fatherhood, showcasing the diverse experiences
+      that have shaped me as an individual.
     </div>
   ),
   resume: "placeholder.com",
@@ -31,14 +33,36 @@ const projects = [
   {
     name: "One Day At A Time",
     id: 1,
-    description: "Here is project description",
+    description: (
+      <div>
+        One Day At A Time is a Java-based web application built with Spring Boot
+        and JavaScript. It helps individuals assess their emotional state and
+        provides appropriate guidance and resources.
+        <br />
+        By selecting their level of happiness or sadness, users can receive
+        recommendations for professional psychologists or discover local events
+        through meet-up websites for a positive social experience.
+        EmotionTracker aims to improve mental well-being by offering
+        personalized assistance and promoting social connections.
+      </div>
+    ),
     stack: ["Java", "Spring Boot", "JavaScript"],
     sourceCode: "https://github.com/WCCI-one-day-at-a-time/OneDayAtATime",
   },
   {
     name: "Clicking Calamity",
     id: 2,
-    description: "Here is project description",
+    description: (
+      <div>
+        Clicking Calamity is a Cookie Clicker-inspired application that is a
+        simple and addictive game where the objective is to click on a cookie to
+        earn points.
+        <br />
+        The more cookies you click, the more points you accumulate. With these
+        points, you can unlock upgrades or power-ups that help you make even
+        more points per click or automate the process.
+      </div>
+    ),
     stack: ["JavaScript"],
     sourceCode:
       "https://github.com/2020-Spring-Cohort/clicking-calamity-DanielVillasmil",
@@ -46,7 +70,18 @@ const projects = [
   {
     name: "Top Down Shooter",
     id: 3,
-    description: "Here is project description",
+    description: (
+      <div>
+        In this simple Lua and Love2D application, you face an endless horde of
+        enemies that progressively swarm toward you. With each passing second,
+        the number of enemies increases, intensifying the challenge.
+        <br />
+        You aim to survive for as long as possible by avoiding the incoming
+        enemies and using your weapon to fend them off. Test your reflexes and
+        see how long you can withstand the relentless onslaught in this
+        thrilling and fast-paced game.
+      </div>
+    ),
     stack: ["Lua", "Love2D"],
     sourceCode: "https://github.com/dvillasmil08/TopDownShooter",
     livePreview: "https://zombiekillergta.com/",
@@ -54,7 +89,16 @@ const projects = [
   {
     name: "Shooting Gallery Game",
     id: 4,
-    description: "Here is project description",
+    description: (
+      <div>
+        In this fast-paced Lua and Love2D game, you aim to shoot as many targets
+        as possible within a challenging 20-second time limit. Take aim, fire,
+        and test your reflexes in this addictive target practice experience.
+        <br />
+        Can you achieve the highest score and become the ultimate sharpshooter?
+        Enable your shooting skills and beat the clock in this thrilling game!
+      </div>
+    ),
     stack: ["Lua", "Love2D"],
     sourceCode: "https://github.com/dvillasmil08/ShootingGalleryGame",
     livePreview: "https://6strshooter.online/",
@@ -62,21 +106,52 @@ const projects = [
   {
     name: "Platformer",
     id: 5,
-    description: "Here is project description",
+    description: (
+      <div>
+        Embark on an exciting adventure in this Lua and Love2D platform game,
+        reminiscent of the classic Mario series. Navigate through multiple
+        challenging platforms, overcoming obstacles and enemies along the way.
+        Your goal is to reach the door at the end of each level, transporting
+        you to a whole new platform world brimming with fresh challenges and
+        surprises.
+        <br />
+        Be careful not to fall into the abyss or let enemies touch you, as a
+        single misstep could cost you your life. Can you conquer each level,
+        unravel the mysteries, and emerge as the ultimate platformer champion?
+        Jump, run, and navigate to victory in this thrilling and addictive
+        platforming experience.
+      </div>
+    ),
     stack: ["Lua", "Love2D"],
     sourceCode: "https://github.com/dvillasmil08/Platformer",
   },
   {
     name: "Purple Haze",
     id: 6,
-    description: "Here is project description",
+    description: (
+      <div>
+        Purple Haze is a Java-based web application built with Spring Boot and
+        JavaScript. It allows users to search for artists, albums, and songs.
+        Users can also save their favorite artists, albums, and songs to their
+        profile.
+      </div>
+    ),
     stack: ["JavaScript", "Java", "Rest", "Spring Boot"],
-    sourceCode: "https://github.com/2020-Spring-Cohort/artists-albums-songs-purple-haze",
+    sourceCode:
+      "https://github.com/2020-Spring-Cohort/artists-albums-songs-purple-haze",
   },
   {
     name: "Portfolio",
     id: 7,
-    description: "Here is project description",
+    description: (
+      <div>
+        This portfolio, built with React and hosted on GitHub, showcases my
+        coding experience and personal identity. It offers a seamless browsing
+        experience, allowing visitors to explore my projects, skills, and
+        achievements. Its design and content reflect my passion for coding. It
+        provides insights into who I am as a developer and individual.
+      </div>
+    ),
     stack: ["React"],
     sourceCode: "https://github.com/dvillasmil08/react-portfolio",
   },

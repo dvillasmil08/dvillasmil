@@ -20,13 +20,12 @@
   align-items: center;
   align-self: flex-start;
   border-radius: 5%;
-
 }
 
 .hobby-image {
   height: 10rem;
   max-width: 50%;
-  border-radius: 10%;
+  border-radius: 5px;
 }
 
 .hobby-name {

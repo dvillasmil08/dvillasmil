@@ -1,69 +1,88 @@
 .projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  justify-items: center;
-  align-content: flex-start; /* Align content to the top */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 .projects-title {
-  grid-column: 1 / -1;
   text-align: center;
 }
 
-.project-id {
+.project {
   background-color: #f0f0f0;
   padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+
+/* .align-left .project-content {
+  flex-direction: row-reverse;
+}
+
+.align-right .project-content {
+  flex-direction: row;
+} */
+.project-id{
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+.project-content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 5%;
-}
-
-.project-image {
-  height: auto;
-  max-width: 100%;
-  border-radius: 50%;
-}
-
-.project-name {
-  font-size: 18px;
-  margin-top: 0;
-  text-align: center;
+  flex-direction: row;
 }
 
 .project-text {
-  font-size: 14px;
-  margin-top: 10px;
-  text-align: center;
+  flex: 1;
 }
 
-.project-link {
+.project-title {
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.project-description {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.project-links {
+  margin-top: 10px;
   display: block;
   color: #007bff;
   text-decoration: none;
-  margin-top: 10px;
+  margin-bottom: 5px;
+}
+a{
+  size: 50px;
 }
 
-.project-link:hover {
-  text-decoration: underline;
-}
 .project-stack {
-  background-color: #98ddca; /* Pastel green background color */
+  background-color: #98ddca;
   padding: 10px;
   border-radius: 5px;
   margin-top: 10px;
-  list-style-type: none; /* Remove bullet points */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  list-style-type: none;
   font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
 }
-
 
 /* Mobile compatibility */
 @media screen and (max-width: 767px) {
   .projects {
-    grid-template-columns: 1fr;
+    align-items: stretch;
   }
+  .project-description {
+    font-size: 100%;
+  }
+  /* .project-title {
+    font-size: 130%;
+  } */
+
 }

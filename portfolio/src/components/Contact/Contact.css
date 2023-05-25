@@ -42,7 +42,7 @@
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
-  text-align: center; /* Center the text within the modal content */
+  text-align: center;
 }
 
 .modal-body {
@@ -57,7 +57,7 @@
 .contact-info a {
   display: flex;
   align-items: center;
-  justify-content: center; /* Add this line */
+  justify-content: center;
   color: #333;
   text-decoration: none;
 }
