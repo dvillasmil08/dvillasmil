@@ -13,24 +13,24 @@ const Navbar = (prop) => {
           <Link to="/">Home</Link>
         </li>
 
-        <li className={active === "home" ? "nav-item active" : "nav-item"}>
+        <li className={active === "about" ? "nav-item active" : "nav-item"}>
           <Link to="/about" className="nav-link">
             About
           </Link>
         </li>
 
-        <li className="nav-item">
+        <li className={active === "projects" ? "nav-item active" : "nav-item"}>
           <Link to="/projects" className="nav-link">
             Projects
           </Link>
         </li>
 
-        <li className="nav-item">
+        <li className={active === "hobbies" ? "nav-item active" : "nav-item"}>
           <Link to="/hobbies" className="nav-link">
             Hobbies
           </Link>
         </li>
-        <li className="nav-item">
+        <li className={active === "contact" ? "nav-item active" : "nav-item"}>
           <Contact />
         </li>
       </ul>
