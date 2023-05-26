@@ -1,10 +1,9 @@
 import React from "react";
-import "./Navbar.css";
-import Contact from "../Contact/Contact";
+import "./styles/Navbar.css";
 import { Link } from "react-router-dom";
 
-const Navbar = (props) => {
-  const { active } = props;
+const NavBar = (props) => {
+	const { active } = props;
 
   return (
     <div className="nav-container">
@@ -39,7 +38,7 @@ const Navbar = (props) => {
             <li
               className={active === "contact" ? "nav-item active" : "nav-item"}
             >
-              <Contact />
+              Contact
             </li>
           </ul>
         </div>
@@ -48,4 +47,4 @@ const Navbar = (props) => {
   );
 };
 
-export default Navbar;
+export default NavBar;
