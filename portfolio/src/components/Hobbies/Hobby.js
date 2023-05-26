@@ -1,7 +1,6 @@
 import React from "react";
-import { hobbies } from "../../portfolio";
+import { hobbies } from "../../data/user";
 import "./Hobby.css";
-import logo from "../../Images/logo192.png"
 
 
 const Hobbies = () => {

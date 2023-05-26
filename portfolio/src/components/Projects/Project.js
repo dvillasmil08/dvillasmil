@@ -1,5 +1,5 @@
 import React from "react";
-import { projects } from "../../portfolio";
+import { projects } from "../../data/user";
 import "./Project.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -28,12 +28,12 @@ const Projects = () => {
               <div className="project-text">
                 <div className="project-description">{description}</div>
               </div>
-              <div className="project-links">
-                <a href={sourceCode} target="_blank">
+              <div className="project-links" >
+                <a href={sourceCode} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon size="2x" icon={faGithub} className="icon" />
               </a>
                 {livePreview && (
-                  <a href={livePreview} target="_blank">
+                  <a href={livePreview} target="_blank" rel="noreferrer">
                     <FontAwesomeIcon size="2x" icon={faLemon} className="icon"/> 
                   </a>
                 )}

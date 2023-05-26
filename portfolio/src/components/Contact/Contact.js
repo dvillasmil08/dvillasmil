@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Contact.css";
-import { contact } from "../../portfolio";
+import { contact } from "../../data/user";
 import Modal from "react-modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";

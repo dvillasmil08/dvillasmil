@@ -1,5 +1,5 @@
 import React from "react";
-import { about } from "../../portfolio";
+import { about } from "../../data/user";
 import "../Body/Body.css";
 import headshot from "../../Images/profile.jpeg";
 

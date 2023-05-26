@@ -17,14 +17,9 @@
   margin-bottom: 20px;
   
 }
-
-/* .align-left .project-content {
-  flex-direction: row-reverse;
+.icon {
+  color: black;
 }
-
-.align-right .project-content {
-  flex-direction: row;
-} */
 .project-id{
   background-color: #f1f1f1;
   padding: 20px;
