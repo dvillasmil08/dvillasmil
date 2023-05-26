@@ -4,11 +4,12 @@ import "./Footer.css";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="footer">
       <div className="footer-links">
         <ul className="footer-nav-links-list">
-
           <li className="footer-nav-link-item">
             <Link to="/">Home</Link>
           </li>
@@ -28,8 +29,12 @@ const Footer = () => {
           <li className="footer-nav-link-item">
             <Link to="contact"></Link>
           </li>
-          
         </ul>
+      </div>
+      <div className="footer-credits">
+        <div className="footer-credits-text">
+          <p>{currentYear} DanielVillasmil.dev. All Rights Reserved.</p>
+        </div>
       </div>
     </div>
   );

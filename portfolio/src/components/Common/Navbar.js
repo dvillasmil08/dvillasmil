@@ -3,7 +3,7 @@ import "./Navbar.css";
 import Contact from "../Contact/Contact";
 import { Link } from "react-router-dom";
 
-const Navbar = (prop) => {
+const Navbar = (props) => {
   const { active } = props;
 
   return (

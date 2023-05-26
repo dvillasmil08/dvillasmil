@@ -1,11 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import Project from "./components/Projects/Project";
-import Hobby from "./components/Hobbies/Hobby";
+import { BrowserRouter as Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
-import Contact from "./components/Contact/Contact";
+import Contact from "./Pages/Contact";
+import About from "./Pages/About";
+import Projects from "./Pages/Projects";
+import Hobbies from "./Pages/Hobbies";
+import Notfound from "./Pages/404";
 //Had to add the below import due to a warning message suggested that you need to define the app element for react-modal to ensure proper accessibility when the modal is opened.
 //This is done using the Modal.setAppElement(el) function or by setting the appElement prop.
 

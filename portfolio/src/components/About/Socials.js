@@ -1,3 +1,15 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+	faTwitter,
+	faGithub,
+	faLinkedin,
+	faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+
+import { INFO } from "../../data/user";
+import "./styles/Socials.css";
+
 const Socials = () => {
     return (
 		<div className="socials">
@@ -64,3 +76,5 @@ const Socials = () => {
 		</div>
 	);
 };
+
+export default Socials;
