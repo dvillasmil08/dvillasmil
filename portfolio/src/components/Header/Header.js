@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../Common/Navbar";
 import { header } from "../../data/user";
 import "./Header.css";
 
