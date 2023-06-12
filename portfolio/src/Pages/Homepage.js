@@ -1,5 +1,5 @@
 import NavBar from "../components/Common/Navbar";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { INFO } from "../data/user";
 import SEO from "../data/seo";
 import Footer from "../components/Common/Footer";
@@ -20,12 +20,12 @@ const Homepage = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  
+
     const handleScroll = () => {
-      let scroll = Math.round(window.scrollYOffset, 2);
-  
+      let scroll = Math.round(window.scrollY, 2);
+
       let newLogoSize = 80 - (scroll * 4) / 10;
-  
+
       if (newLogoSize < oldLogoSize) {
         if (newLogoSize > 40) {
           setLogoSize(newLogoSize);
@@ -39,11 +39,11 @@ const Homepage = () => {
         setStayLogo(false);
       }
     };
-  
+
+    handleScroll(); // Call handleScroll initially to set the logo size
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, [oldLogoSize]);
-
 
   const currentSEO = SEO.find((item) => item.page === "home");
 
@@ -59,11 +59,13 @@ const Homepage = () => {
 
   return (
     <>
-      <Helmet>
-        <title>{INFO.main.title}</title>
-        <meta name="description" content={currentSEO.description} />
-        <meta name="keywords" content={currentSEO.keywords.join(", ")} />
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <title>{INFO.main.title}</title>
+          <meta name="description" content={currentSEO.description} />
+          <meta name="keywords" content={currentSEO.keywords.join(", ")} />
+        </Helmet>
+      </HelmetProvider>
 
       <div className="page-content">
         <NavBar active="home" />
