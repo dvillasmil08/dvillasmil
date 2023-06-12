@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/danielvillasmil.github.io/static/css/main.a558e2be.css",
-    "main.js": "/danielvillasmil.github.io/static/js/main.90d43493.js",
-    "index.html": "/danielvillasmil.github.io/index.html",
-    "main.a558e2be.css.map": "/danielvillasmil.github.io/static/css/main.a558e2be.css.map",
-    "main.90d43493.js.map": "/danielvillasmil.github.io/static/js/main.90d43493.js.map"
+    "main.css": "/static/css/main.a558e2be.css",
+    "main.js": "/static/js/main.90d43493.js",
+    "index.html": "/index.html",
+    "main.a558e2be.css.map": "/static/css/main.a558e2be.css.map",
+    "main.90d43493.js.map": "/static/js/main.90d43493.js.map"
   },
   "entrypoints": [
     "static/css/main.a558e2be.css",
