@@ -20,14 +20,12 @@ const Homepage = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
-
-  useEffect(() => {
+  
     const handleScroll = () => {
       let scroll = Math.round(window.scrollYOffset, 2);
-
+  
       let newLogoSize = 80 - (scroll * 4) / 10;
-
+  
       if (newLogoSize < oldLogoSize) {
         if (newLogoSize > 40) {
           setLogoSize(newLogoSize);
@@ -41,10 +39,11 @@ const Homepage = () => {
         setStayLogo(false);
       }
     };
-
+  
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [logoSize, oldLogoSize]);
+  }, [oldLogoSize]);
+
 
   const currentSEO = SEO.find((item) => item.page === "home");
 
