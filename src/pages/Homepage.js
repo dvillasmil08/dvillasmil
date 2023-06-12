@@ -13,6 +13,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { useEffect, useState } from "react";
 import Logo from "../components/Common/Logo";
+import HomePic from "../Images/profile.jpeg"
 
 const Homepage = () => {
   const [stayLogo, setStayLogo] = useState(false);
@@ -96,7 +97,7 @@ const Homepage = () => {
                 <div className="homepage-image-container">
                   <div className="homepage-image-wrapper">
                     <img
-                      src="../Images/profile.jpeg"
+                      src={HomePic}
                       alt="about"
                       className="homepage-image"
                     />

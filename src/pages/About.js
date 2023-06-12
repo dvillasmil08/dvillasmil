@@ -4,6 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import NavBar from "../components/Common/Navbar";
 import Footer from "../components/Common/Footer";
 import Logo from "../components/Common/Logo";
+import AboutPic from "../Images/esports.JPG"
 import Socials from "../components/About/Socials";
 
 import { INFO } from "../data/user";
@@ -50,7 +51,7 @@ const About = () => {
               <div className="about-left-side">
                 <div className="about-image-container">
                   <div className="about-image-wrapper">
-                    <img src="../Images/esports.JPG" alt="about" className="about-image" />
+                    <img src={AboutPic} alt="about" className="about-image" />
                   </div>
                 </div>
 
