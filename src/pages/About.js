@@ -50,7 +50,7 @@ const About = () => {
               <div className="about-left-side">
                 <div className="about-image-container">
                   <div className="about-image-wrapper">
-                    <img src="esports.JPG" alt="about" className="about-image" />
+                    <img src="../Images/esports.JPG" alt="about" className="about-image" />
                   </div>
                 </div>
 

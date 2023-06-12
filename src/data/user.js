@@ -3,7 +3,7 @@ const INFO = {
   title: "Portfolio by Daniel",
   name: "Daniel Villasmil",
   email: "dvillasmil08@gmail.com",
-  logo: "Shock500.png",
+  logo: "../Images/Logo.png",
   },
 
   socials: {
