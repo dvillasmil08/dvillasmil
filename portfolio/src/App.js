@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -10,7 +10,6 @@ import Homepage from "./pages/Homepage";
 const App = () => {
   return (
     <div className="App">
-      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
@@ -19,7 +18,6 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/*" element={<Notfound />} />
         </Routes>
-      </BrowserRouter>
     </div>
   );
 };

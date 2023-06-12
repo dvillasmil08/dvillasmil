@@ -5,7 +5,7 @@ import SEO from "../data/seo";
 import Footer from "../components/Common/Footer";
 import "./styles/homepage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/fontawesome-free";
+import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faStackOverflow,
@@ -61,14 +61,20 @@ const Homepage = () => {
   return (
     <>
       <Helmet>
-        <title className="title homepage-title">{INFO.main.title}</title>
+        <title>{INFO.main.title}</title>
         <meta name="description" content={currentSEO.description} />
-        <meta name="keywords" content={currentSEO.keywords.join(",")} />
+        <meta name="keywords" content={currentSEO.keywords.join(", ")} />
       </Helmet>
 
       <div className="page-content">
         <NavBar active="home" />
         <div className="content-wrapper">
+          <div className="homepage-logo-container">
+            <div style={logoStyle}>
+              {/* <Logo width={logoSize} link={false} /> */}
+            </div>
+          </div>
+
           <div className="homepage-container">
             <div className="homepage-first-area">
               <div className="homepage-first-area-left-side">
@@ -82,30 +88,39 @@ const Homepage = () => {
               </div>
 
               <div className="homepage-first-area-right-side">
-                <div className="homepage-image-wrapper">
-                  <img
-                    src="profile.jpeg"
-                    alt="about"
-                    className="homepage-image"
-                  />
+                <div className="homepage-image-container">
+                  <div className="homepage-image-wrapper">
+                    <img
+                      src="profile.jpeg"
+                      alt="about"
+                      className="homepage-image"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
 
             <div className="homepage-socials">
-              <a href={INFO.socials.github}>
-                <FontAwesomeIcon icon={faGithub} className="homepage-social" />
-              </a>
-              <a href={INFO.socials.stackOverflow}>
+              <a href={INFO.socials.github} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon
-                  icon={faStackOverflow}
-                  className="homepage-social"
+                  icon={faGithub}
+                  className="homepage-social-icon"
                 />
               </a>
-              <a href={INFO.socials.instagram}>
+              <a
+                href={INFO.socials.stackoverflow}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faStackOverflow}
+                  className="homepage-social-icon"
+                />
+              </a>
+              <a href={INFO.socials.instagram} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon
                   icon={faInstagram}
-                  className="homepage-social"
+                  className="homepage-social-icon"
                 />
               </a>
               <a
@@ -114,8 +129,8 @@ const Homepage = () => {
                 rel="noreferrer"
               >
                 <FontAwesomeIcon
-                  icon={faEnvelope}
-                  className="homepage-social"
+                  icon={faMailBulk}
+                  className="homepage-social-icon"
                 />
               </a>
             </div>
