@@ -61,11 +61,14 @@ const Homepage = () => {
   return (
     <>
       <HelmetProvider>
-        <Helmet>
-          <title>{INFO.main.title}</title>
-          <meta name="description" content={currentSEO.description} />
-          <meta name="keywords" content={currentSEO.keywords.join(", ")} />
-        </Helmet>
+      <Helmet>
+				<title>{INFO.main.title}</title>
+				<meta name="description" content={currentSEO.description} />
+				<meta
+					name="keywords"
+					content={currentSEO.keywords.join(", ")}
+				/>
+			</Helmet>
       </HelmetProvider>
 
       <div className="page-content">

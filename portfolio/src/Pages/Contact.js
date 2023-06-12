@@ -43,12 +43,11 @@ const Contact = () => {
             <div className="subtitle contact-subtitle">
               Thank you for your interest in getting in touch with me. I welcome
               your feedback, questions, and suggestions. If you have a specific
-              question or comment, please feel free to email me directly at
-              &nbsp;{""}
-              <a href={`mailto:${INFO.main.email}`}>{INFO.main.email}</a>.
+              question or comment, please feel free to email me directly at{" "}
+              <a style={{ textDecoration: "none" }} href={`mailto:${INFO.main.email}`}>{INFO.main.email}</a>.
               Finally, if you prefer to connect on social media, you can find me
               on{" "}
-              <a href={INFO.socials.linkedin} target="_blank" rel="noreferrer">
+              <a style={{ textDecoration: "none" }}href={INFO.socials.linkedin} target="_blank" rel="noreferrer">
                 LinkedIn
               </a>
               .
