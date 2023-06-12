@@ -1,5 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import { hashHistory } from "react-router"; // Import hashHistory from react-router
+
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -11,7 +13,8 @@ import "./App.css"
 const App = () => {
   return (
     <div className="App">
-        <Routes>
+        <Routes history={hashHistory}>
+        {/* Routes */}
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
