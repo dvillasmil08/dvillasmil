@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/dvillasmil.github.io/static/css/main.a558e2be.css",
-    "main.js": "/dvillasmil.github.io/static/js/main.bb3cd181.js",
-    "index.html": "/dvillasmil.github.io/index.html",
-    "main.a558e2be.css.map": "/dvillasmil.github.io/static/css/main.a558e2be.css.map",
-    "main.bb3cd181.js.map": "/dvillasmil.github.io/static/js/main.bb3cd181.js.map"
+    "main.css": "/static/css/main.a558e2be.css",
+    "main.js": "/static/js/main.1cbcf834.js",
+    "static/media/esports.JPG": "/static/media/esports.2792c3cdaa0e38f6770a.JPG",
+    "static/media/Shock500.png": "/static/media/Shock500.8ad0a5629abb0eeae6ef.png",
+    "static/media/profile.jpeg": "/static/media/profile.ea5e19c97e0ad0cd4dcb.jpeg",
+    "index.html": "/index.html",
+    "main.a558e2be.css.map": "/static/css/main.a558e2be.css.map",
+    "main.1cbcf834.js.map": "/static/js/main.1cbcf834.js.map"
   },
   "entrypoints": [
     "static/css/main.a558e2be.css",
-    "static/js/main.bb3cd181.js"
+    "static/js/main.1cbcf834.js"
   ]
 }
