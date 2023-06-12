@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Hobbies from "./pages/Hobbies";
 import Notfound from "./pages/404";
 import Homepage from "./pages/Homepage";
+import "./App.css"
 
 const App = () => {
   return (
