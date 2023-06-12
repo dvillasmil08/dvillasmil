@@ -14,7 +14,6 @@ import {
 import { useEffect, useState } from "react";
 import Logo from "../components/Common/Logo";
 
-
 const Homepage = () => {
   const [stayLogo, setStayLogo] = useState(false);
   const [logoSize, setLogoSize] = useState(80);

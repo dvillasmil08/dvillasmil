@@ -1,51 +1,32 @@
 import React from "react";
-import { projects } from "../../data/user";
-import "./Project.css";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faLemon } from "@fortawesome/free-regular-svg-icons";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
+import "./styles/Project.css";
 
-const Projects = () => {
+const Project = (props) => {
+	const { logo, title, description, codeText, sourceCode } = props;
 
-  return (
-    <div>
-      <h2 className="projects-title">Projects</h2>
-    <div className="projects">
-      {projects.map((project) => {
-        const { livePreview, sourceCode, id, name, description, stack } = project;
-        
-        const stackItems = stack.map((item, index) => (
-          <li key={index} className="stack-item">
-            {item}
-          </li>
-        ));
-        
-        return (
-          <div className={'project-id'} key={id}>
-                <h3 className="project-title">{name}</h3>
-            <div className="project-content">
-              <div className="project-text">
-                <div className="project-description">{description}</div>
-              </div>
-              <div className="project-links" >
-                <a href={sourceCode} target="_blank" rel="noreferrer">
-                <FontAwesomeIcon size="2x" icon={faGithub} className="icon" />
-              </a>
-                {livePreview && (
-                  <a href={livePreview} target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon size="2x" icon={faLemon} className="icon"/> 
-                  </a>
-                )}
-            <ul className="project-stack">{stackItems}</ul>
-              </div>
-            </div>
-          </div>
-        );
-      })}
-      </div>
-    </div>
-  );
+	return (
+		<>
+			<div className="project">
+				<Link to={sourceCode}>
+					<div className="project-container">
+						<div className="project-logo">
+							<img src={logo} alt="logo" />
+						</div>
+						<div className="project-title">{title}</div>
+						<div className="project-description">{description}</div>
+						<div className="project-link">
+
+							<div className="project-link-text">{codeText}</div>
+						</div>
+					</div>
+				</Link>
+			</div>
+		</>
+	);
 };
 
-export default Projects;
+export default Project;
