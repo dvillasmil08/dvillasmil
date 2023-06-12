@@ -1,6 +1,5 @@
 import React from "react";
-import Skills from "../Skills/Skills";
-import "./Footer.css";
+// import "./Footer.css";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -27,7 +26,7 @@ const Footer = () => {
           </li>
 
           <li className="footer-nav-link-item">
-            <Link to="contact"></Link>
+            <Link to="contact">Contact</Link>
           </li>
         </ul>
       </div>

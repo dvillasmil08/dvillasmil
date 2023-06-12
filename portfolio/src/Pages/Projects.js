@@ -1,6 +1,7 @@
 const Projects = () => {
     return (
     <>
+    <div>test project</div>
     </>
         );
     };

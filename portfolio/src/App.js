@@ -1,18 +1,18 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./components/Home/Home";
-import Contact from "./Pages/Contact";
-import About from "./Pages/About";
-import Projects from "./Pages/Projects";
-import Hobbies from "./Pages/Hobbies";
-import Notfound from "./Pages/404";
+import Contact from "./pages/Contact";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Hobbies from "./pages/Hobbies";
+import Notfound from "./pages/404";
+import Homepage from "./pages/Homepage";
 
 const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/hobbies" element={<Hobbies />} />
