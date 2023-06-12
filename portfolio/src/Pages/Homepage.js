@@ -12,6 +12,8 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { useEffect, useState } from "react";
+import Logo from "../components/Common/Logo";
+
 
 const Homepage = () => {
   const [stayLogo, setStayLogo] = useState(false);
@@ -72,7 +74,7 @@ const Homepage = () => {
         <div className="content-wrapper">
           <div className="homepage-logo-container">
             <div style={logoStyle}>
-              {/* <Logo width={logoSize} link={false} /> */}
+              <Logo width={logoSize} link={false} />
             </div>
           </div>
 

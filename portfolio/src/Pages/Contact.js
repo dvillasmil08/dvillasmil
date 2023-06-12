@@ -1,8 +1,73 @@
+import React, { useEffect } from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
+
+import NavBar from "../components/Common/Navbar";
+import Footer from "../components/Common/Footer";
+import Logo from "../components/Common/Logo";
+import Socials from "../components/About/Socials";
+
+import { INFO } from "../data/user";
+import SEO from "../data/seo";
+
+import "./styles/contact.css";
+
 const Contact = () => {
-    return (
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const currentSEO = SEO.find((item) => item.page === "contact");
+
+  return (
     <>
+      <HelmetProvider>
+        <Helmet>
+          <title>{`Contact | ${INFO.main.title}`}</title>
+          <meta name="description" content={currentSEO.description} />
+          <meta name="keywords" content={currentSEO.keywords.join(", ")} />
+        </Helmet>
+      </HelmetProvider>
+
+      <div className="page-content">
+        <NavBar active="contact" />
+        <div className="content-wrapper">
+          <div className="contact-logo-container">
+            <div className="contact-logo">
+              <Logo width={46} />
+            </div>
+          </div>
+
+          <div className="contact-container">
+            <div className="title contact-title">Ways to Connect with Me</div>
+
+            <div className="subtitle contact-subtitle">
+              Thank you for your interest in getting in touch with me. I welcome
+              your feedback, questions, and suggestions. If you have a specific
+              question or comment, please feel free to email me directly at
+              &nbsp;{""}
+              <a href={`mailto:${INFO.main.email}`}>{INFO.main.email}</a>.
+              Finally, if you prefer to connect on social media, you can find me
+              on{" "}
+              <a href={INFO.socials.linkedin} target="_blank" rel="noreferrer">
+                LinkedIn
+              </a>
+              .
+            </div>
+          </div>
+
+          <div className="socials-container">
+            <div className="contact-socials">
+              <Socials />
+            </div>
+          </div>
+
+          <div className="page-footer">
+            <Footer />
+          </div>
+        </div>
+      </div>
     </>
-        );
-    };
-    
-    export default Contact;
+  );
+};
+
+export default Contact;
