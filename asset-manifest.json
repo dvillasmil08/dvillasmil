@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a558e2be.css",
-    "main.js": "/portfolio/static/js/main.f0c87097.js",
-    "index.html": "/portfolio/index.html",
-    "main.a558e2be.css.map": "/portfolio/static/css/main.a558e2be.css.map",
-    "main.f0c87097.js.map": "/portfolio/static/js/main.f0c87097.js.map"
+    "main.css": "/danielvillasmil.github.io/static/css/main.a558e2be.css",
+    "main.js": "/danielvillasmil.github.io/static/js/main.90d43493.js",
+    "index.html": "/danielvillasmil.github.io/index.html",
+    "main.a558e2be.css.map": "/danielvillasmil.github.io/static/css/main.a558e2be.css.map",
+    "main.90d43493.js.map": "/danielvillasmil.github.io/static/js/main.90d43493.js.map"
   },
   "entrypoints": [
     "static/css/main.a558e2be.css",
-    "static/js/main.f0c87097.js"
+    "static/js/main.90d43493.js"
   ]
 }
