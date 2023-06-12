@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dvillasmil.github.io/static/css/main.a558e2be.css",
-    "main.js": "/dvillasmil.github.io/static/js/main.8ce44ffc.js",
+    "main.js": "/dvillasmil.github.io/static/js/main.bb3cd181.js",
     "index.html": "/dvillasmil.github.io/index.html",
     "main.a558e2be.css.map": "/dvillasmil.github.io/static/css/main.a558e2be.css.map",
-    "main.8ce44ffc.js.map": "/dvillasmil.github.io/static/js/main.8ce44ffc.js.map"
+    "main.bb3cd181.js.map": "/dvillasmil.github.io/static/js/main.bb3cd181.js.map"
   },
   "entrypoints": [
     "static/css/main.a558e2be.css",
-    "static/js/main.8ce44ffc.js"
+    "static/js/main.bb3cd181.js"
   ]
 }
