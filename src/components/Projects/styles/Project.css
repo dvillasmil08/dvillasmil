@@ -27,6 +27,7 @@
 }
 
 .project-logo {
+	display: flex;
 	width: 30px;
 }
 

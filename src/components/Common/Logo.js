@@ -1,4 +1,3 @@
-import { INFO } from "../../data/user";
 import "./styles/Logo.css";
 import { Link } from "react-router-dom";
 import LogoPic from "../../Images/Shock500.png"

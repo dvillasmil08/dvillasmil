@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./styles/Project.css";
 
 const Project = (props) => {
-	const { logo, title, description, codeText, sourceCode } = props;
+	const { logo, logo2, title, description, codeText, sourceCode } = props;
 
 	return (
 		<>
@@ -13,6 +13,7 @@ const Project = (props) => {
 					<div className="project-container">
 						<div className="project-logo">
 							<img src={logo} alt="logo" />
+							<img src={logo2} alt="logo2" />
 						</div>
 						<div className="project-title">{title}</div>
 						<div className="project-description">{description}</div>
