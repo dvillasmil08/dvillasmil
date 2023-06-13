@@ -17,7 +17,7 @@ const App = () => {
   return (
     <div className="App">
       <Routes history={history}>
-          <Route path="/" element={<Homepage />} />
+          <Route path="/" exact={true} element={<Homepage />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/hobbies" element={<Hobbies />} />
