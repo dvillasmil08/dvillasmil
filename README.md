@@ -1,7 +1,10 @@
-# Live Demo of Porfolio
-![QR Code](./src/Images/dvillasmilgithubio.png =200x)
+# Live Demo
 
+<img src="./src/Images/dvillasmilgithubio.png" alt="QR Code" width="200">
 
+# Resume
+
+<img src="./src/Images/QRResume.png" alt="QR Code" width="200">
 
 # Getting Started with Create React App
 
