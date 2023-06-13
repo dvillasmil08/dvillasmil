@@ -21,7 +21,7 @@ const Homepage = () => {
   const [oldLogoSize, setOldLogoSize] = useState(80);
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
 
     const handleScroll = () => {
       let scroll = Math.round(window.scrollY, 2);

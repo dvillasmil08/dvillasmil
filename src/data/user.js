@@ -29,8 +29,7 @@ const INFO = {
       description:
         "Java back-end and JavaScript application built with Spring Boot. By selecting their level of happiness or sadness, users can discover local events through meet-up websites for a positive social experience.",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-      logo2:
-        "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/java/java.png",
+      // logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/java/java.png",
       codeText: "View Project",
       sourceCode: "https://github.com/WCCI-one-day-at-a-time/OneDayAtATime",
     },
@@ -77,7 +76,7 @@ const INFO = {
       description:
         "Java-based web application built with Spring Boot and JavaScript. It allows users to search for artists, albums, and songs. Users can also save their favorite artists, albums, and songs to their profile.",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-      logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/java/java.png",
+      // logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/java/java.png",
       codeText: "View Project",
       sourceCode:
         "https://github.com/2020-Spring-Cohort/artists-albums-songs-purple-haze",
