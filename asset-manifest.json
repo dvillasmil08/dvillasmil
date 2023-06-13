@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dvillasmil.github.io/static/css/main.5e6f14c8.css",
-    "main.js": "/dvillasmil.github.io/static/js/main.583b10e6.js",
-    "static/media/esports.JPG": "/dvillasmil.github.io/static/media/esports.2792c3cdaa0e38f6770a.JPG",
-    "static/media/Shock500.png": "/dvillasmil.github.io/static/media/Shock500.8ad0a5629abb0eeae6ef.png",
-    "static/media/profile.jpeg": "/dvillasmil.github.io/static/media/profile.ea5e19c97e0ad0cd4dcb.jpeg",
-    "index.html": "/dvillasmil.github.io/index.html",
-    "main.5e6f14c8.css.map": "/dvillasmil.github.io/static/css/main.5e6f14c8.css.map",
-    "main.583b10e6.js.map": "/dvillasmil.github.io/static/js/main.583b10e6.js.map"
+    "main.css": "/static/css/main.5e6f14c8.css",
+    "main.js": "/static/js/main.51676e41.js",
+    "static/media/esports.JPG": "/static/media/esports.2792c3cdaa0e38f6770a.JPG",
+    "static/media/Shock500.png": "/static/media/Shock500.8ad0a5629abb0eeae6ef.png",
+    "static/media/profile.jpeg": "/static/media/profile.ea5e19c97e0ad0cd4dcb.jpeg",
+    "index.html": "/index.html",
+    "main.5e6f14c8.css.map": "/static/css/main.5e6f14c8.css.map",
+    "main.51676e41.js.map": "/static/js/main.51676e41.js.map"
   },
   "entrypoints": [
     "static/css/main.5e6f14c8.css",
-    "static/js/main.583b10e6.js"
+    "static/js/main.51676e41.js"
   ]
 }
