@@ -1,5 +1,7 @@
 # Live Demo of Porfolio
-![QR Code](qr.codes/grFtOQ)
+![QR Code](./src/Images/dvillasmilgithubio.png =200x)
+
+
 
 # Getting Started with Create React App
 
