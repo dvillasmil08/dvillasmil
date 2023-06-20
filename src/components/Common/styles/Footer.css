@@ -2,7 +2,6 @@
 
 .footer {
 	display: flex;
-	
 	padding-top: 25px;
 	margin-top: 50px;
 	padding-bottom: 25px;
@@ -47,18 +46,18 @@
 }
 
 @media (max-width: 600px) {
-	.footer {
-	  flex-direction: column;
-	  height: 85px;
-	}
-  
-	.footer-links {
-	  display: flex;
-	  width: 100%;
-	  justify-content: center;
-	}
-  
-	.footer-nav-link-list {
-	  width: 100%;
-	}
+  .footer {
+    flex-direction: column;
+    height: 85px;
   }
+
+  .footer-links {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .footer-nav-link-list {
+    width: 100%;
+  }
+}

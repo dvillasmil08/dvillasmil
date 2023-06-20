@@ -152,12 +152,12 @@ const Homepage = () => {
               </a>
             </div>
 
-            <div className="page-footer">
-              <Footer />
-            </div>
           </div>
         </div>
       </div>
+            <div className="page-footer">
+              <Footer />
+            </div>
     </>
   );
 };
