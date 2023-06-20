@@ -1,8 +1,6 @@
 # [Live Demo](https://dvillasmil08.github.io/dvillasmil.github.io/)
-<img src="./src/Images/dvillasmilgithubio.png" alt="QR Code" width="200" >
 
 ## [Resume](https://drive.google.com/file/d/1klPCUAwcq1CgzSZnlAY4V9tiKCKYIxL7/view)
-<img src="./src/Images/QRResume.png" alt="QR Code" width="200">
 
 # Getting Started with Create React App
 
