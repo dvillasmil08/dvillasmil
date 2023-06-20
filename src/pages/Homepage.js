@@ -10,6 +10,7 @@ import {
   faGithub,
   faStackOverflow,
   faInstagram,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { useEffect, useState } from "react";
 import Logo from "../components/Common/Logo";
@@ -123,19 +124,19 @@ const Homepage = () => {
                   className="homepage-social-icon"
                 />
               </a>
+              <a href={INFO.socials.instagram} target="_blank" rel="noreferrer">
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  className="homepage-social-icon"
+                />
+              </a>
               <a
                 href={INFO.socials.linkedin}
                 target="_blank"
                 rel="noreferrer"
               >
                 <FontAwesomeIcon
-                  icon={faStackOverflow}
-                  className="homepage-social-icon"
-                />
-              </a>
-              <a href={INFO.socials.instagram} target="_blank" rel="noreferrer">
-                <FontAwesomeIcon
-                  icon={faInstagram}
+                  icon={faLinkedin}
                   className="homepage-social-icon"
                 />
               </a>
