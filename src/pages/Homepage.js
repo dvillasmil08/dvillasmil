@@ -123,6 +123,16 @@ const Homepage = () => {
                   className="homepage-social-icon"
                 />
               </a>
+              <a
+                href={INFO.socials.linkedin}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faStackOverflow}
+                  className="homepage-social-icon"
+                />
+              </a>
               <a href={INFO.socials.instagram} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon
                   icon={faInstagram}

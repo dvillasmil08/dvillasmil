@@ -13,9 +13,9 @@ const INFO = {
   },
 
   homepage: {
-    title: "Full-stack Software Developer",
+    title: "Full-stack Software Engineer",
     description:
-      "Ohio-born, Venezuela raised where I studied Civil Engineering, I discovered my passion for programming through a C++ class, realizing that software development is my true calling. Once returning to the US, I joined the US Army and served for seven years on active duty. In 2020, I transitioned to the Reserves. Being a father is essential to my life, and I cherish the time I spend with my family. I enjoy playing video games, watching movies, and traveling in my free time. This brief overview highlights my multicultural background, academic journey, military service, and the joy of fatherhood, showcasing the diverse experiences that have shaped me as an individual.",
+      "Ohio-born, Venezuela raised where I studied Civil Engineering, I discovered my passion for programming through a C++ class, realizing that software development is my true calling. Once returning to the US, I joined the US Army and served for seven years on active duty. In 2020, I transitioned to the Reserves. Being a father is essential to my life, and I cherish the time I spend with my family. In my free time, I enjoy playing video games, watching movies, and traveling.",
   },
   about: {
     title: "I'm Daniel Villasmil",
