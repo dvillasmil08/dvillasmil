@@ -27,7 +27,7 @@ const INFO = {
     {
       title: "One Day At A Time",
       description:
-        "Java back-end and JavaScript application built with Spring Boot. By selecting their level of happiness or sadness, users can discover local events through meet-up websites for a positive social experience.",
+        "Javascript frontend with Java Springboot backend. By selecting their level of happiness or sadness, users can discover local events through meet-up websites for a positive social experience.",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
       // logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/java/java.png",
       codeText: "View Project",
@@ -36,7 +36,7 @@ const INFO = {
     {
       title: "Clicking Calamity",
       description:
-        "Cookie Clicker-inspired application. The objective is to click on a cookie to earn point, the more cookies you click, the more points you accumulate.",
+        "Cookie Clicker-inspired application. The objective is to click on a cookie to earn points, the more cookies you click, the more points you accumulate!",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
       codeText: "View Project",
       sourceCode:
@@ -45,7 +45,7 @@ const INFO = {
     {
       title: "Top Down Shooter",
       description:
-        "In this simple Lua and Love2D application, you face an endless horde of enemies that progressively swarm toward you. With each passing second, the number of enemies increases, intensifying the challenge.",
+        "In this simple game built using Love2D, you face an endless horde of enemies that progressively swarm you.",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/lua/lua.png",
       codeText: "View Project",
       sourceCode: "https://github.com/dvillasmil08/TopDownShooter",
@@ -55,7 +55,7 @@ const INFO = {
       title: "Shooting Gallery Game",
       id: 4,
       description:
-        "Lua and Love2D game, in this game you aim to shoot as many targets as possible within a challenging 20-second time limit. Take aim, fire, and test your reflexes in this addictive target practice experience. Can you achieve the highest score and become the ultimate sharpshooter? Enable your shooting skills and beat the clock in this thrilling game!",
+        "In this game built using Love2D you aim to shoot as many targets as possible within a challenging 20-second time limit. Take aim, fire, and test your reflexes in this addictive target practice experience. Can you achieve the highest score and become the ultimate sharpshooter? Enable your shooting skills and beat the clock in this thrilling game!",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/lua/lua.png",
       codeText: "View Project",
       sourceCode: "https://github.com/dvillasmil08/ShootingGalleryGame",
@@ -65,7 +65,7 @@ const INFO = {
       title: "Platformer",
       id: 5,
       description:
-        "Embark on an exciting Mario-style adventure in this Lua and Love2D platform game. Overcome obstacles, defeat enemies, and reach the end of each level to unlock new worlds. Avoid falling or getting hit, as a single mistake can be fatal. Can you conquer the levels, unravel mysteries, and become the ultimate platformer champion? Jump, run, and navigate to victory in this thrilling platforming experience",
+        "In this platform game built using Love2D. You overcome obstacles, defeat enemies, and reach the end of each level to unlock new worlds. Avoid falling or getting hit, as a single mistake can be fatal. Can you conquer the levels, unravel mysteries, and become the ultimate platformer champion? Jump, run, and navigate to victory in this thrilling platforming experience",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/lua/lua.png",
       codeText: "View Project",
       sourceCode: "https://github.com/dvillasmil08/Platformer",
@@ -74,7 +74,7 @@ const INFO = {
       title: "Purple Haze",
       id: 6,
       description:
-        "Java-based web application built with Spring Boot and JavaScript. It allows users to search for artists, albums, and songs. Users can also save their favorite artists, albums, and songs to their profile.",
+        "Java-based web application built with Spring Boot and JavaScript. Purple Haze allows users to search for artists, albums, and songs. Users can also save their favorite artists, albums, and songs to their profile.",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
       // logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/java/java.png",
       codeText: "View Project",
