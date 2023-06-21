@@ -23,7 +23,7 @@ const INFO = {
       "A Software Enginer, father, gamer and a movie lover. I have a passion for learning and sharing my knowledge with others as publicly as possible. Feel free to reach out if you have any questions or just want to chat.",
   },
   contact: {
-    title: "Ways to Connect with Me",
+    title: "I'd love to chat!",
   },
 
   projects: [

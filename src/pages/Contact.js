@@ -23,7 +23,7 @@ const Contact = () => {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>{`Contact | ${INFO.main.title}`}</title>
+          <title>{`Contact | ${INFO.contact.title}`}</title>
           <meta name="description" content={currentSEO.description} />
           <meta name="keywords" content={currentSEO.keywords.join(", ")} />
         </Helmet>
@@ -40,20 +40,17 @@ const Contact = () => {
           <div className="contact-container">
             <div className="contact-main">
               <div className="contact-right-side">
-                <div className="title contact-title">{INFO.about.title}</div>
+                <div className="title contact-title">{INFO.contact.title}</div>
 
                 <div className="subtitle contact-subtitle">
-                  Thank you for your interest in getting in touch with me. I
-                  welcome your feedback, questions, and suggestions. If you have
-                  a specific question or comment, please feel free to email me
-                  directly at{" "}
+                  Thank you for wanting to connect! If you have any feedback, questions, or suggestions, please feel free to email me at{" "}
                   <a
                     style={{ textDecoration: "none" }}
                     href={`mailto:${INFO.main.email}`}
                   >
                     {INFO.main.email}
                   </a>
-                  . Finally, if you prefer to connect on social media, you can
+                  . If you prefer to connect on social media, you can
                   find me on{" "}
                   <a
                     style={{ textDecoration: "none" }}
@@ -62,6 +59,15 @@ const Contact = () => {
                     rel="noreferrer"
                   >
                     LinkedIn
+                  </a>
+                  {" "} and {" "}
+                  <a
+                    style={{ textDecoration: "none" }}
+                    href={INFO.socials.instagram}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Instagram
                   </a>
                   .
                 </div>
@@ -88,11 +94,11 @@ const Contact = () => {
             <div className="contact-socials">
               <Socials />
             </div>
-          </div>
-
           <div className="page-footer">
             <Footer />
           </div>
+          </div>
+
         </div>
       </div>
     </>
