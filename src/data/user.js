@@ -42,6 +42,32 @@ const INFO = {
       codeText: "View Project",
       sourceCode: "https://github.com/dvillasmil08/pythonQrCode",
   },
+  {
+    title: "Top Down Shooter",
+    description:
+      "In this simple game built using Love2D, you face an endless horde of enemies that progressively swarm you.",
+    logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/lua/lua.png",
+    codeText: "View Project",
+    sourceCode: "https://github.com/dvillasmil08/TopDownShooter",
+    demo: "https://zombiekillergta.com/",
+  },
+  {
+    title: "Shooting Gallery Game",
+    description:
+      "In this game built using Love2D you aim to shoot as many targets as possible within a challenging 20-second time limit. Take aim, fire, and test your reflexes in this addictive target practice experience. Can you achieve the highest score and become the ultimate sharpshooter? Enable your shooting skills and beat the clock in this thrilling game!",
+    logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/lua/lua.png",
+    codeText: "View Project",
+    sourceCode: "https://github.com/dvillasmil08/ShootingGalleryGame",
+    demo: "https://6strshooter.online/",
+  },
+  {
+    title: "Platformer",
+    description:
+      "In this platform game built using Love2D. You overcome obstacles, defeat enemies, and reach the end of each level to unlock new worlds. Avoid falling or getting hit, as a single mistake can be fatal. Can you conquer the levels, unravel mysteries, and become the ultimate platformer champion? Jump, run, and navigate to victory in this thrilling platforming experience",
+    logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/lua/lua.png",
+    codeText: "View Project",
+    sourceCode: "https://github.com/dvillasmil08/Platformer",
+  },
     {
       title: "One Day At A Time",
       description:
@@ -52,41 +78,6 @@ const INFO = {
       sourceCode: "https://github.com/WCCI-one-day-at-a-time/OneDayAtATime",
     },
     {
-      title: "Clicking Calamity",
-      description:
-        "Cookie Clicker-inspired application. The objective is to click on a cookie to earn points, the more cookies you click, the more points you accumulate!",
-      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-      codeText: "View Project",
-      sourceCode:
-        "https://github.com/2020-Spring-Cohort/clicking-calamity-DanielVillasmil",
-    },
-    {
-      title: "Top Down Shooter",
-      description:
-        "In this simple game built using Love2D, you face an endless horde of enemies that progressively swarm you.",
-      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/lua/lua.png",
-      codeText: "View Project",
-      sourceCode: "https://github.com/dvillasmil08/TopDownShooter",
-      demo: "https://zombiekillergta.com/",
-    },
-    {
-      title: "Shooting Gallery Game",
-      description:
-        "In this game built using Love2D you aim to shoot as many targets as possible within a challenging 20-second time limit. Take aim, fire, and test your reflexes in this addictive target practice experience. Can you achieve the highest score and become the ultimate sharpshooter? Enable your shooting skills and beat the clock in this thrilling game!",
-      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/lua/lua.png",
-      codeText: "View Project",
-      sourceCode: "https://github.com/dvillasmil08/ShootingGalleryGame",
-      demo: "https://6strshooter.online/",
-    },
-    {
-      title: "Platformer",
-      description:
-        "In this platform game built using Love2D. You overcome obstacles, defeat enemies, and reach the end of each level to unlock new worlds. Avoid falling or getting hit, as a single mistake can be fatal. Can you conquer the levels, unravel mysteries, and become the ultimate platformer champion? Jump, run, and navigate to victory in this thrilling platforming experience",
-      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/lua/lua.png",
-      codeText: "View Project",
-      sourceCode: "https://github.com/dvillasmil08/Platformer",
-    },
-    {
       title: "Purple Haze",
       description:
         "Java-based web application built with Spring Boot and JavaScript. Purple Haze allows users to search for artists, albums, and songs. Users can also save their favorite artists, albums, and songs to their profile.",
@@ -95,6 +86,15 @@ const INFO = {
       codeText: "View Project",
       sourceCode:
         "https://github.com/2020-Spring-Cohort/artists-albums-songs-purple-haze",
+    },
+    {
+      title: "Clicking Calamity",
+      description:
+        "Cookie Clicker-inspired application. The objective is to click on a cookie to earn points, the more cookies you click, the more points you accumulate!",
+      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+      codeText: "View Project",
+      sourceCode:
+        "https://github.com/2020-Spring-Cohort/clicking-calamity-DanielVillasmil",
     },
     
   ],
