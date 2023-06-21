@@ -23,11 +23,11 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+      </div>
       <div className="footer-credits">
         <div className="footer-credits-text">
         © 2023 Daniel Villasmil All Rights Reserved.
         </div>
-      </div>
       </div>
     </>
   );

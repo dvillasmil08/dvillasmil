@@ -9,7 +9,7 @@ const Project = (props) => {
 	return (
 		<>
 			<div className="project">
-				<Link to={sourceCode}>
+				<Link to={sourceCode} target="_blank">
 					<div className="project-container">
 						<div className="project-logo">
 							<img src={logo} alt="logo" />
