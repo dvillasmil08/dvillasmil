@@ -5,6 +5,7 @@ import NavBar from "../components/Common/Navbar";
 import Footer from "../components/Common/Footer";
 import Logo from "../components/Common/Logo";
 import Socials from "../components/About/Socials";
+import eSports from "../Images/esports.JPG";
 
 import { INFO } from "../data/user";
 import SEO from "../data/seo";
@@ -36,21 +37,50 @@ const Contact = () => {
               <Logo width={46} />
             </div>
           </div>
-
           <div className="contact-container">
-            <div className="title contact-title">Ways to Connect with Me</div>
+            <div className="contact-main">
+              <div className="contact-right-side">
+                <div className="title contact-title">{INFO.about.title}</div>
 
-            <div className="subtitle contact-subtitle">
-              Thank you for your interest in getting in touch with me. I welcome
-              your feedback, questions, and suggestions. If you have a specific
-              question or comment, please feel free to email me directly at{" "}
-              <a style={{ textDecoration: "none" }} href={`mailto:${INFO.main.email}`}>{INFO.main.email}</a>.
-              Finally, if you prefer to connect on social media, you can find me
-              on{" "}
-              <a style={{ textDecoration: "none" }}href={INFO.socials.linkedin} target="_blank" rel="noreferrer">
-                LinkedIn
-              </a>
-              .
+                <div className="subtitle contact-subtitle">
+                  Thank you for your interest in getting in touch with me. I
+                  welcome your feedback, questions, and suggestions. If you have
+                  a specific question or comment, please feel free to email me
+                  directly at{" "}
+                  <a
+                    style={{ textDecoration: "none" }}
+                    href={`mailto:${INFO.main.email}`}
+                  >
+                    {INFO.main.email}
+                  </a>
+                  . Finally, if you prefer to connect on social media, you can
+                  find me on{" "}
+                  <a
+                    style={{ textDecoration: "none" }}
+                    href={INFO.socials.linkedin}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    LinkedIn
+                  </a>
+                  .
+                </div>
+              </div>
+
+              <div className="contact-left-side">
+                <div className="contact-image-container">
+                  <div className="contact-image-wrapper">
+                    <img
+                      src={eSports}
+                      alt="contact"
+                      className="contact-image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="contact-socials-mobile">
+              <Socials />
             </div>
           </div>
 

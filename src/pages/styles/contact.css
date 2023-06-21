@@ -1,37 +1,117 @@
 .contact-logo-container {
-  display: flex;
-  justify-content: left;
-  padding-top: 25px;
+	display: flex;
+	justify-content: left;
+	padding-top: 25px;
 }
 
 .contact-logo {
-  display: flex;
-  position: fixed;
-  border: 1px solid white;
-  border-radius: 50%;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-  top: 4vh;
-}
-
-.contact-subtitle {
-  width: 100% !important;
+	display: flex;
+	position: fixed;
+	border: 1px solid white;
+	border-radius: 50%;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	top: 4vh;
 }
 
 .contact-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin-top: 120px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+	padding-top: 120px;
 }
 
-.socials-container {
-  display: flex;
-  flex-direction: column;
-  margin-top: 80px;
+.contact-main {
+	display: flex;
+}
+
+.contact-right-side {
+	flex-basis: 900px;
+}
+
+.contact-title {
+	width: 100% !important;
+}
+
+.contact-subtitle {
+	width: 80% !important;
+}
+
+.contact-left-side {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 300px;
+}
+
+.contact-image-container {
+	width: 370px;
+}
+
+.contact-image-wrapper {
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+	border-radius: 10%;
+	transform: rotate(3deg);
+}
+
+.contact-image-wrapper img {
+	display: block;
+	width: 100%;
 }
 
 .contact-socials {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.contact-socials-mobile {
+	display: none;
+}
+
+@media (max-width: 1024px) {
+	.contact-logo {
+		z-index: 100;
+	}
+
+	.contact-main {
+		flex-direction: column;
+	}
+
+	.contact-subtitle {
+		padding-top: 20px !important;
+	}
+
+	.contact-left-side {
+		flex-basis: 100%;
+		order: 1;
+	}
+
+	.contact-right-side {
+		flex-basis: 100%;
+		order: 2;
+	}
+
+	.contact-image-container {
+		padding-bottom: 40px;
+	}
+
+	.contact-socials {
+		display: none;
+	}
+
+	.contact-socials-mobile {
+		padding-top: 30px;
+		display: flex;
+	}
+}
+
+@media (max-width: 600px) {
+	.contact-container {
+		padding-top: 60px;
+	}
+
+	.contact-image-container {
+		width: 80%;
+	}
 }
