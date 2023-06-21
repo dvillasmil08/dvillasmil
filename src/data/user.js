@@ -15,7 +15,7 @@ const INFO = {
   homepage: {
     title: "Full-stack Software Engineer",
     description:
-      "Ohio-born, Venezuela raised where I studied Civil Engineering, I discovered my passion for programming through a C++ class, realizing that software development is my true calling. Once returning to the US, I joined the US Army and served for seven years on active duty. In 2020, I transitioned to the Reserves. Being a father is essential to my life, and I cherish the time I spend with my family. In my free time, I enjoy playing video games, watching movies, and traveling.",
+      "Ohio-born, Venezuela raised where I studied Civil Engineering, I discovered my passion for programming through a C++ class, realizing that software development is my true calling. Once returning to the US, I joined the US Army and served for seven years on active duty. In 2020, I transitioned to the Reserves where I began my Software Engineer career in one of the worlds largest banks JPMorgan & Chase. Being a father is essential to my life, and I cherish the time I spend with my family. In my free time, I enjoy playing video games, watching movies, and traveling.",
   },
   about: {
     title: "I'm Daniel Villasmil",
