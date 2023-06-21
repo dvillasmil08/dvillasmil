@@ -1,4 +1,6 @@
 # [Live Demo](https://dvillasmil08.github.io/dvillasmil.github.io/)
+<img src="./Images/qr_code_with_image.png" alt="QR Code" width="200" >
+
 
 ## [Resume](https://drive.google.com/file/d/1klPCUAwcq1CgzSZnlAY4V9tiKCKYIxL7/view)
 
