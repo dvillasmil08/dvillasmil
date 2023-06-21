@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "./static/css/main.85312069.css",
-    "main.js": "./static/js/main.8fc02f3f.js",
+    "main.js": "./static/js/main.ab360a1e.js",
     "static/media/esports.JPG": "./static/media/esports.2792c3cdaa0e38f6770a.JPG",
     "static/media/Shock500.png": "./static/media/Shock500.8ad0a5629abb0eeae6ef.png",
     "static/media/profile.jpeg": "./static/media/profile.ea5e19c97e0ad0cd4dcb.jpeg",
     "index.html": "./index.html",
     "main.85312069.css.map": "./static/css/main.85312069.css.map",
-    "main.8fc02f3f.js.map": "./static/js/main.8fc02f3f.js.map"
+    "main.ab360a1e.js.map": "./static/js/main.ab360a1e.js.map"
   },
   "entrypoints": [
     "static/css/main.85312069.css",
-    "static/js/main.8fc02f3f.js"
+    "static/js/main.ab360a1e.js"
   ]
 }
