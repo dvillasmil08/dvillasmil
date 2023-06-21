@@ -25,6 +25,21 @@ const INFO = {
 
   projects: [
     {
+      title: "Portfolio",
+      description:
+        "This portfolio, built with React and hosted on GitHub, showcases my coding experience and personal identity. It offers a seamless browsing experience, allowing visitors to explore my projects, skills, and achievements. Its design and content reflect my passion for coding. It provides insights into who I am as a developer and individual.",
+      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+      codeText: "View Project",
+      sourceCode: "https://github.com/dvillasmil08/react-portfolio",
+    },
+    {
+      title: "QR Code",
+      description:"This is my first Python project generating a QR code that links to my portfolio. As well as sample code for anyone to use.",
+      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+      codeText: "View Project",
+      sourceCode: "https://github.com/dvillasmil08/pythonQrCode",
+  },
+    {
       title: "One Day At A Time",
       description:
         "Javascript frontend with Java Springboot backend. By selecting their level of happiness or sadness, users can discover local events through meet-up websites for a positive social experience.",
@@ -53,7 +68,6 @@ const INFO = {
     },
     {
       title: "Shooting Gallery Game",
-      id: 4,
       description:
         "In this game built using Love2D you aim to shoot as many targets as possible within a challenging 20-second time limit. Take aim, fire, and test your reflexes in this addictive target practice experience. Can you achieve the highest score and become the ultimate sharpshooter? Enable your shooting skills and beat the clock in this thrilling game!",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/lua/lua.png",
@@ -63,7 +77,6 @@ const INFO = {
     },
     {
       title: "Platformer",
-      id: 5,
       description:
         "In this platform game built using Love2D. You overcome obstacles, defeat enemies, and reach the end of each level to unlock new worlds. Avoid falling or getting hit, as a single mistake can be fatal. Can you conquer the levels, unravel mysteries, and become the ultimate platformer champion? Jump, run, and navigate to victory in this thrilling platforming experience",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/lua/lua.png",
@@ -72,7 +85,6 @@ const INFO = {
     },
     {
       title: "Purple Haze",
-      id: 6,
       description:
         "Java-based web application built with Spring Boot and JavaScript. Purple Haze allows users to search for artists, albums, and songs. Users can also save their favorite artists, albums, and songs to their profile.",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
@@ -81,15 +93,7 @@ const INFO = {
       sourceCode:
         "https://github.com/2020-Spring-Cohort/artists-albums-songs-purple-haze",
     },
-    {
-      title: "Portfolio",
-      id: 7,
-      description:
-        "This portfolio, built with React and hosted on GitHub, showcases my coding experience and personal identity. It offers a seamless browsing experience, allowing visitors to explore my projects, skills, and achievements. Its design and content reflect my passion for coding. It provides insights into who I am as a developer and individual.",
-      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-      codeText: "View Project",
-      sourceCode: "https://github.com/dvillasmil08/react-portfolio",
-    },
+    
   ],
   // hobbies: [
   //   {
